@@ -1,0 +1,121 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GCDObjC (0.2.0)
+  - iOS-Categories (1.0.2)
+  - IQKeyboardManager (3.3.7)
+  - JSONModel (1.2.0)
+  - Masonry (1.0.0)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.0)
+  - MyLayout (1.1.5)
+  - pop (1.0.9)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RKNotificationHub (2.0.1)
+  - SDCycleScrollView (1.64):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - TMCache (2.1.0)
+  - WHC_AutoLayoutKit (2.1.0)
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+  - YTKNetwork (1.0.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - BlocksKit
+  - FMDB
+  - GCDObjC
+  - iOS-Categories
+  - IQKeyboardManager
+  - JSONModel
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - MyLayout
+  - pop
+  - ReactiveCocoa (~> 2.5)
+  - RKNotificationHub
+  - SDCycleScrollView
+  - SDWebImage
+  - TMCache
+  - WHC_AutoLayoutKit
+  - XAspect
+  - YTKNetwork
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GCDObjC: adcd9941029e3628de539347d3a6777470a65998
+  iOS-Categories: 5a1647ce5867ceb2fab0b66bde895d0b486a2ee5
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JSONModel: 12523685c4b623553ccf844bbbf7007624317b2c
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MyLayout: 484a6d6ccf459b404b2feb15ad4954833a85ac8b
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RKNotificationHub: d80905a948c79c11673345f807133a0bfd17e320
+  SDCycleScrollView: 806fedb9342ab03b58b84442f985517b42c7cbb7
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  WHC_AutoLayoutKit: 71d35834ce3b0f51fd98670f4f99d4530b834bcc
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+  YTKNetwork: 28ef7a3c119f61e737a76abbe74ff2fe1afec913
+
+COCOAPODS: 0.39.0
